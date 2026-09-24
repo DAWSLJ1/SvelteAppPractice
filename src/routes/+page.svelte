@@ -1,40 +1,19 @@
 <script>
 import bill from ''
+import Header from "../lib/assets/components/Header.svelte";
+import Footer from "../lib/assets/components/Header.svelte";
 </script>
 
-<header>
-<h1>We Learn Svelte</h1>
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-  <li><a href="/about">About</a></li>
-  <li><a href="/contact">Contact Us</a></li>
-</nav>
-</header>
-
+<Header />
 
 <main>
-  <article>
-  <figure>
-  <img src="" alt="">
-  <figcaption>@username</figcaption>
-  </figure>
-  <section>
-  <h2>Boring cards</h2>
-  <ul>
-    <li>One</li>
-    <li>Two</li>
-    <li>Three</li>
-  </ul>
-  </section>
-</article>
-
+  <Card />
+    <Card />
+      <Card />
 </main>
 
-<footer><p>&copy; Fundamentals of Web</p></footer>
-<script>
-<article>{
-  border: 1px solid grey;
-}
+<Footer />
+<style>
 
-</script>
+
+</style>
