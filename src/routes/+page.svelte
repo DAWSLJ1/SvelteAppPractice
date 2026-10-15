@@ -10,6 +10,11 @@ import Footer from "../lib/assets/components/Header.svelte";
   <Card />
     <Card />
       <Card />
+      <nav>
+        <ul>
+           <li><a href="/next">Next</a></li>
+        </ul>
+      </nav>
 </main>
 
 <Footer />
